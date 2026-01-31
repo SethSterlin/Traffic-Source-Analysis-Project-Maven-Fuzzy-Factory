@@ -2,24 +2,33 @@
 
 # Sales Trend Analysis Project – Maven Fuzzy Factory
 
-## Project Summary
+## Project Background
 
-This project focuses on **analyzing traffic sources and marketing performance** to understand  
-**where customers come from and which channels drive the highest-quality traffic and conversions**.
+In the early stage of an e-commerce business, marketing teams often face a critical challenge:  
+**driving traffic efficiently while ensuring that visitors actually convert into customers.**  
+With limited budgets and high competition in digital advertising, understanding *where traffic comes from*, *how users behave*, and *which channels truly drive revenue* becomes essential for sustainable growth.
 
-By linking **website session data with order data**, I evaluated both **traffic volume and conversion efficiency** across marketing channels. The analysis supports **data-driven decisions on ad spend, bidding strategy, and campaign optimization**, with the ultimate goal of improving **marketing ROI and sustainable growth**.
+This project uses the **Maven Fuzzy Factory** dataset, a realistic e-commerce database that captures the full customer journey — from website sessions and pageviews to orders, products, and refunds. The dataset reflects real-world business complexity, including multiple traffic sources, device types, and changing marketing strategies over time.
 
-Using SQL and visualization tools, I analyzed traffic sources, conversion rates, trends over time, and performance by device type to identify actionable insights for marketing strategy optimization.
+The primary business problem addressed in this analysis is:
 
----
+**Are our marketing campaigns attracting high-quality traffic that converts, or are we paying for volume without sufficient return?**
 
-## Project Highlights
+To answer this, the project focuses on **traffic source analysis and conversion rate optimization**, two core pillars of performance marketing. By linking session-level data with order outcomes, the analysis evaluates not only *how much traffic* each channel generates, but also *how valuable that traffic is* in terms of actual sales.
+
+Throughout the project, I simulate real decision-making scenarios faced by a marketing team — such as adjusting bids, reallocating budget across devices, and responding to declining performance. Using SQL and data visualization, the analysis translates raw data into actionable business insights that support smarter bidding strategies, improved ROI, and more efficient growth.
+
+This project demonstrates how data can be used not just to report metrics, but to **guide strategic marketing decisions in a competitive e-commerce environment**.
+
+### Project Highlights
 
 - Identified **Google Search (nonbrand)** as the primary traffic source (>90% of sessions)  
 - Measured **conversion rate below benchmark** (2.88% vs expected 4%)  
 - Analyzed **traffic trends before and after bid adjustments**  
 - Discovered significant **conversion rate differences by device type**  
-- Demonstrated that **device-level bid optimization improved desktop traffic volume**  
+- Demonstrated that **device-level bid optimization improved desktop traffic volume**
+
+### Tools: `SQL` `MySQL` `Tableau`
 
 ---
 
@@ -133,6 +142,66 @@ Based on the previous analysis, the marketing team increased bids for the _Googl
 In this step, I analyzed weekly session trends for desktop and mobile traffic from April 15th onwards to observe the impact of the bid increase.
 
 ![enter image description here](https://github.com/SethSterlin/Sales-Trend-Analysis-Project-Maven-Fuzzy-Factory/blob/main/Traffic%20Source%20Segment%20Trending%20by%20Device%20Type.png?raw=true)
+
+---
+
+## Business Insights
+
+This analysis reveals how **traffic quality, bidding strategy, and device-level behavior** directly impact conversion efficiency and marketing ROI in an e-commerce funnel.
+
+### 1. Traffic Volume ≠ Traffic Quality
+
+Although **Google Search (nonbrand)** contributed over **90% of total sessions**, its conversion rate was only **2.88%**, falling below the expected benchmark of **4%**.
+
+**Insight:**  
+High traffic volume alone does not guarantee revenue. Without sufficient purchase intent, aggressive acquisition can inflate costs while diluting efficiency.
+
+**Business Implication:**  
+Marketing success should be measured by **conversion-adjusted traffic**, not raw session counts.
+
+### 2. Bid Reduction Was Not the Sole Cause of Traffic Decline
+
+Weekly trend analysis showed that traffic volume had already begun declining **before** the bid reduction on April 15, 2012.  
+After the peak on April 1, sessions dropped by **65%** within five weeks.
+
+**Insight:**  
+The bid change likely accelerated the decline, but underlying demand saturation or creative fatigue may have also played a role.
+
+**Business Implication:**  
+Bid adjustments should be supported by **trend diagnostics**, not treated as the single explanatory factor.
+
+### 3. Device Behavior Is a Critical Optimization Lever
+
+Conversion rates differed sharply by device type:
+
+- **Desktop CVR:** 3.73%  
+- **Mobile CVR:** 0.96%
+
+**Insight:**  
+Mobile traffic underperformed significantly, suggesting lower purchase intent or a suboptimal mobile experience.
+
+**Business Implication:**  
+Uniform bidding across devices is inefficient. **Device-level bid segmentation** is essential for cost control and performance optimization.
+
+### 4. Smart Bidding Can Recover High-Quality Traffic
+
+After increasing bids specifically for **desktop users** on May 19, 2012, desktop session trends stabilized while maintaining higher conversion efficiency.
+
+**Insight:**  
+Selective bid increases on high-performing segments can recover volume **without sacrificing ROI**.
+
+**Business Implication:**  
+Granular targeting enables growth without reverting to broad, inefficient spending.
+
+### 5. Executive Takeaway
+
+- Not all traffic is equally valuable  
+- Conversion rate is a stronger decision metric than volume  
+- Device-level segmentation materially improves marketing efficiency  
+- Data-driven bid adjustments outperform blanket budget changes  
+
+**Bottom line:**  
+Sustainable growth comes from **optimizing traffic quality, not maximizing traffic quantity**.
 
 ---
 
