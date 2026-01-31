@@ -50,11 +50,7 @@ Prior to beginning the analysis, a variety of quality control checks were perfor
 
 This diagram illustrates how **UTM parameters** embedded in a URL are used to track the origin of website traffic and store it in a structured database format for analysis.
 
-When a user visits the website through a URL such as:
-
-www.abcwebsite.com?utm_source=gsearch&utm_campaign=nonbrand
-
-the UTM parameters provide critical marketing context:
+When a user visits the website through a URL. The UTM parameters provide critical marketing context:
 
 - **utm_source** identifies the traffic source (e.g., Google Search, Bing Search).
 - **utm_campaign** identifies the campaign type (e.g., brand, nonbrand).
