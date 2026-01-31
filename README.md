@@ -81,7 +81,7 @@ The full SQL query used to sales trend analysis is available [here](https://gith
 
 In this step, I analyzed web session data from the early launch phase of an e-commerce startup to help the marketing team answer a key business question:
 
-> **“Where are our website visitors coming from, and which channels are driving the most traffic?”**
+**“Where are our website visitors coming from, and which channels are driving the most traffic?”**
 
 ![enter image description here](https://github.com/SethSterlin/Sales-Trend-Analysis-Project-Maven-Fuzzy-Factory/blob/main/screenshot20250706134243.png?raw=true)
 
@@ -100,7 +100,7 @@ Given the large volume of traffic, small improvements in conversion rate (CVR) c
 
 **Business Question:**
 
-> Is the Google Search (nonbrand) campaign not only driving traffic but also converting visitors effectively?
+Is the Google Search (nonbrand) campaign not only driving traffic but also converting visitors effectively?
 
 I set a performance benchmark:
 
