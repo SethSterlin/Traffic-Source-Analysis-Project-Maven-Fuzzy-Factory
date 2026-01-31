@@ -226,6 +226,16 @@ Sustainable growth comes from **optimizing traffic quality, not maximizing traff
 
 ---
 
+## Recommendations
+
+- Shift focus from traffic volume to traffic quality by prioritizing high-intent keywords and conversion-driven metrics over raw session counts  
+- Implement device-level bidding strategies, increasing bids for high-performing desktop traffic while reducing exposure to low-converting mobile traffic  
+- Investigate mobile funnel friction (UX, page speed, checkout drop-offs) before scaling mobile ad spend  
+- Support bid adjustments with historical trend analysis to avoid reactive decisions based on short-term fluctuations  
+- Establish a continuous optimization loop using regular performance reviews, controlled bid tests, and data-driven experimentation
+
+---
+
 ## Resources
 
 - SQL Scripts:  
